@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav */
+.header{
+    background-color: #FFF8F3;
+    background-position:
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-option{
+    padding-top: 70px;
+    padding-right: 150px;
+}
+.nav-option a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 25px;
+}
+.head-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+/* header content */
+.content{
+    margin-top: 102px;
+    text-align: center;
+}    
+.cont-ti{
+    font-weight: 700;
+    font-size: 64px;
+    padding: 0px 400px 20px 400px;
+}
+.cont-di{
+    font-weight: 400;
+    font-size: 16px;
+    color:#727272;
+    padding: 0px 300px 33px 300px;
+}
+.btn-primary{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FF900E;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 75%;
+    margin-bottom: 30px;
+}
+/* main style */
+.features{
+    display: flex;
+    gap: 100px;
+
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.text-primary1{
+    color: #727272;
+}
+.text-primary2{
+    color: #FF900E;
+}
+.features-con h3{
+    padding-top: 290px;
+    font-weight: 500;
+    font-size: 45px;
+    padding-right: 170px;
+}
+.features-detais{
+padding-top: 25px;
+padding-right: 85px;
+padding-bottom: 30px;
+}
+/* skill */
+.skill{
+    display: flex;
+    margin-top: 200px;
+    gap: 50px;
+    padding-right: 100px;
+}
+.skill-title{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.title-sk{
+    border-left:5px solid #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+    font-weight: 700;
+    font-size: 45px;
+    padding-right: 150px;
+}
+.title-d{
+    padding-top: 25px;
+    padding-right: 75px;
+}  
+.skill-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color:#727272;
+}
+.skill-details{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+}
+.detail-title{
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+.skill-details p{
+    padding-right: 100px;
+}
+.expo-button{
+    color: white;
+    background-color:#FF900E;
+    font-weight: 700;
+    font-size: 20px;
+    height: 150px;
+    width: 300px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.b-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+/* facts */
+.facts{
+    padding-top: 70px;
+    padding-left: 150px;
+}
+.fac-title h3{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.fac-title p{
+    padding-right: 700px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.icon{
+    padding-top: 50px;
+    padding-right: 150px;
+    display: flex;
+    gap: 125px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.skill-ico h4{
+    font-weight: 600;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skill-ico p{
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+}
+.skill-ico{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    border:2px solid #FF900E;
+    padding: 30px;
+}
+ .skill-ico:hover{
+    width: 400px;
+ }   
+
+.sponser{
+    padding-right: 140px;
+    padding-left: 140px;
+}
+.spo-title{
+    text-align: center;
+    padding-top: 180px;
+}
+.spo-title h3{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+.title-dis{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-right: 350px;
+    padding-left: 350px;
+    padding-bottom: 30px;
+}
+.spo-detail{
+    display: flex;
+    gap: 160px;
+    padding-bottom: 130px;
+}
+.spo-detail img{
+    width: 100%;
+}
+/* footer */
+.footer{
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 220px;
+}
+.cpy{
+    border: 0;
+    border-radius: 5px;
+    height: 75px;
+    width: 1100px;
+    background-color: #FFF8F3;
+    text-align: center;
+}
+.cpy p{
+    padding-top: 30px;
+}
+
+@media screen and (max-width:576px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .head-title{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .nav-option{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .content-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .cont-ti{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .cont-di{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-con{
+        padding-left: 50px;
+        padding-top: 0;
+    }
+    .features-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 50px;
+    }
+    .skill{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pic-sk{
+        width: 75%;
+        padding-left: 20px;
+    }
+    .expo-button{
+        color: white;
+        background-color:#FF900E;
+        font-weight: 700;
+        height: 150px;
+        width: 300px;
+        border-radius: 5px;
+        border: 0;
+        padding-left: 50px;
+    }
+    .facts{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .fac-title{
+        padding: right 300px;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-dis{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .spo-detail{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .cpy{
+        border: 0;
+        border-radius: 5px;
+        height: 50px;
+        width: 500px;
+        background-color: #FFF8F3;
+    }
+}
